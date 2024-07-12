@@ -86,12 +86,6 @@ streamlit run app.py
 ## Debugging and Logs
 The `llm_ans` function in `qa_setup.py` includes debug statements to help identify issues. If you encounter errors, check the console output for detailed logs.
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## Tasks
 
 ### 1. Domain Selection
