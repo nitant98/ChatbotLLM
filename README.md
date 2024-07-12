@@ -113,4 +113,7 @@ The `llm_ans` function in `qa_setup.py` includes debug statements to help identi
   - Used GPT-3.5-turbo language model for query processing.
   - Retrieved data from the vector database.
   - Ensured the system returns relevant and accurate results.
+ 
+
+## Youtube Link - https://youtu.be/zG3Z-8MwhCM
 
