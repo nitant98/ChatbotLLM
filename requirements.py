@@ -1,0 +1,1 @@
+pip install streamlit pinecone-client sentence_transformers langchain tiktoken pypdf faiss-gpu InstructorEmbedding transformers accelerate bitsandbytes
