@@ -9,8 +9,6 @@ This project is a Conversational Retrieval-Augmented Generation (RAG) Chatbot de
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Debugging and Logs](#debugging-and-logs)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -103,27 +101,22 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ### 2. Data Collection and Preprocessing
 - **Data Collection**: The LOTR books in PDF format.
 - **Preprocessing Steps**:
-  - Load the PDF and extract text.
-  - Clean the text by removing irrelevant information.
-  - Handle any missing data.
-  - Ensure the text is in a suitable format for the language model.
+  - Loaded the PDF using PYPDF and extracted text.
+  - Cleaned the text by removing irrelevant information.
+  - Handled any missing data.
+  - Ensured the text is in a suitable format for the language model.
 
 ### 3. Vector Database Implementation
 - **Database**: Pinecone
 - **Implementation Steps**:
-  - Create an index in Pinecone.
-  - Store the preprocessed dataset in Pinecone.
-  - Ensure data is indexed for efficient retrieval based on semantic similarity.
+  - Created an index in Pinecone.
+  - Stored the preprocessed dataset in Pinecone.
+  - Ensured data is indexed for efficient retrieval based on semantic similarity.
 
 ### 4. Application Development
 - **User Interface**: Streamlit
 - **Backend Logic**:
-  - Use the language model for query processing.
-  - Retrieve data from the vector database.
-  - Ensure the system returns relevant and accurate results.
+  - Used GPT-3.5-turbo language model for query processing.
+  - Retrieved data from the vector database.
+  - Ensured the system returns relevant and accurate results.
 
-### 5. Evaluation and Testing
-- **Testing**:
-  - Test the application with various queries.
-  - Evaluate performance and accuracy.
-  - Debug and log issues for further improvements.
